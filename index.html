@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/images/favicon-32x32.png"
+        />
+
+        <title>Frontend Mentor | FAQ accordion</title>
+
+        <!-- Bootstrap -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body class="d-flex justify-content-center align-items-center flex-column">
+        <main>
+            <picture>
+                <source
+                    srcset="assets/images/background-pattern-mobile.svg"
+                    media="(max-width: 576.98px)"
+                />
+                <img
+                    src="assets/images/background-pattern-desktop.svg"
+                    alt=""
+                    class="bg"
+                />
+            </picture>
+
+            <section class="card">
+                <section class="card-body">
+                    <section class="header d-flex align-items-center">
+                        <img
+                            src="assets/images/icon-star.svg"
+                            alt="star icon"
+                        />
+                        <h1 class="card-title">FAQs</h1>
+                    </section>
+
+                    <section class="accordion-wrapper d-flex flex-column">
+                        <!-- Accordion - 1 -->
+                        <button class="accordion" type="button">
+                            What is Frontend Mentor, and how will it help me?
+                            <img
+                                src="assets/images/icon-plus.svg"
+                                alt="plus icon"
+                                id="show"
+                            />
+                        </button>
+                        <article class="panel">
+                            <p class="card-text accordion-body">
+                                Frontend Mentor offers realistic coding
+                                challenges to help developers improve their
+                                frontend coding skills with projects in HTML,
+                                CSS, and JavaScript. It's suitable for all
+                                levels and ideal for portfolio building.
+                            </p>
+                        </article>
+
+                        <hr />
+
+                        <!-- Accordion - 2 -->
+                        <button class="accordion">
+                            Is Frontend Mentor free?
+                            <img
+                                src="assets/images/icon-plus.svg"
+                                alt="plus icon"
+                                id="show"
+                            />
+                        </button>
+                        <article class="panel">
+                            <p class="card-text">
+                                Yes, Frontend Mentor offers both free and
+                                premium coding challenges, with the free option
+                                providing access to a range of projects suitable
+                                for all skill levels.
+                            </p>
+                        </article>
+
+                        <hr />
+
+                        <!-- Accordion - 3 -->
+                        <button class="accordion">
+                            Can I use Frontend Mentor projects in my portfolio?
+                            <img
+                                src="assets/images/icon-plus.svg"
+                                alt="plus icon"
+                                id="show"
+                            />
+                        </button>
+                        <article class="panel">
+                            <p class="card-text">
+                                Yes, you can use projects completed on Frontend
+                                Mentor in your portfolio. It's an excellent way
+                                to showcase your skills to potential employers!
+                            </p>
+                        </article>
+
+                        <hr />
+
+                        <!-- Accordion - 4 -->
+                        <button class="accordion">
+                            How can I get help if I'm stuck on a challenge?
+                            <img
+                                src="assets/images/icon-plus.svg"
+                                alt="plus icon"
+                                id="show"
+                            />
+                        </button>
+                        <article class="panel">
+                            <p class="card-text">
+                                The best place to get help is inside Frontend
+                                Mentor's Discord community. There's a help
+                                channel where you can ask questions and seek
+                                support from other community members.
+                            </p>
+                        </article>
+                    </section>
+                </section>
+            </section>
+        </main>
+
+        <footer class="attribution">
+            Challenge by
+            <a
+                href="https://www.frontendmentor.io?ref=challenge"
+                target="_blank"
+                >Frontend Mentor</a
+            >. Coded by <a href="" target="_blank">Albrt78</a>.
+        </footer>
+
+        <!-- Bootstrap -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- My JS -->
+        <script src="script.js"></script>
+    </body>
+</html>

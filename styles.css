@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap");
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-pink: hsl(275, 100%, 97%);
+    --Grayish-purple: hsl(292, 16%, 49%);
+    --Dark-purple: hsl(292, 42%, 14%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    min-height: 100dvh;
+    background-color: var(--Light-pink);
+    font-family: "Work Sans", sans-serif;
+}
+
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.card {
+    border-radius: 1rem;
+    margin-block-start: 5.5rem;
+    width: 37.5rem;
+    height: auto;
+}
+
+.card .card-body {
+    padding-inline-start: 2.1rem;
+    padding-inline-end: 2.5rem;
+    padding-block-start: 1.7rem;
+    padding-block-end: 2rem;
+}
+
+.card .card-body .header {
+    margin-left: 0.35rem;
+    gap: 1.5rem;
+}
+
+.card .card-body .header img {
+    width: 2.5rem;
+}
+
+.card .card-body .header h1 {
+    padding-block-start: 0.8rem;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--Dark-purple);
+}
+
+.card .card-body .accordion-wrapper .accordion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline-start: 0.3rem;
+    padding-block: 0.9rem;
+    margin-top: 0.5rem;
+    background-color: var(--White);
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.015rem;
+    text-align: left;
+    color: var(--Dark-purple);
+}
+
+.card .card-body .accordion-wrapper .accordion #show {
+    width: 1.8rem;
+}
+
+.card .card-body .accordion-wrapper .accordion:hover,
+.card .card-body .accordion-wrapper .accordion.active {
+    color: #ad28eb;
+}
+
+.card .card-body .accordion-wrapper .panel {
+    margin-top: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.card .card-body .accordion-wrapper .panel p {
+    padding-inline-start: 0.3rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: gray;
+    max-width: 530px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* Media Query */
+@media screen and (max-width: 1280.98px) {
+    .card {
+        margin-block-start: 2rem;
+    }
+}
+
+@media screen and (max-width: 600.98px) {
+    .card {
+        width: 35rem;
+    }
+
+    .card .card-body .accordion-wrapper .accordion {
+        font-size: 1rem;
+        letter-spacing: 0;
+    }
+
+    .card .card-body .accordion-wrapper .panel p {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 576.98px) {
+    .card {
+        width: 25rem;
+    }
+}
+
+@media screen and (max-width: 390.98px) {
+    .card {
+        width: 22rem;
+    }
+}
