@@ -9,10 +9,11 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 -   [Screenshot](#screenshot)
 -   [Links](#links)
 -   [Built with](#built-with)
--   [Useful resources](#useful-resources)
 -   [Author](#author)
 
 ## Overview
+
+Frontend Mentor is an online platform that provides challenges for web developers to improve their skills by building realistic projects. These challenges typically involve creating frontend designs based on provided designs or specifications.
 
 ### The challenge
 
@@ -29,25 +30,16 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [FAQ Accordion Main](https://github.com/Albrt78/frontend_mentor_project/tree/main/FAQ%20Accordion%20Main)
--   Live Site URL: [FAQ Accordion Main](https://your-live-site-url.com)
+-   Solution URL: [FAQ Accordion Main](https://github.com/Albrt78/faqaccordion.github.io)
+-   Live Site URL: [FAQ Accordion Main](https://albrt78.github.io/faqaccordion.github.io/)
 
 ### Built with
 
 -   Semantic HTML5 markup
 -   CSS custom properties
 -   Flexbox
--   CSS Grid
--   Mobile-first workflow
--   [React](https://reactjs.org/) - JS library
--   [Next.js](https://nextjs.org/) - React framework
--   [Styled Components](https://styled-components.com/) - For styles
-
-### Useful resources
-
--   [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
--   [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+-   JavaScript
 
 ## Author
 
--   Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+-   Frontend Mentor - [@Albrt78](https://www.frontendmentor.io/profile/Albrt78)
