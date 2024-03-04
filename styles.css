@@ -115,6 +115,12 @@ body {
     }
 }
 
+@media screen and (max-width: 768.98px) {
+    .card {
+        width: 36.7rem;
+    }
+}
+
 @media screen and (max-width: 600.98px) {
     .card {
         width: 35rem;
